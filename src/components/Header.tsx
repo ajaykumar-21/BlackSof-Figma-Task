@@ -5,7 +5,7 @@ import SmartLight from "../../public/smart lights_logo.svg";
 const Header: React.FC = () => {
   return (
     <header className="bg-dark-blue shadow-md">
-      <div className="container mx-auto px-28 py-3 flex justify-between items-center">
+      <div className="container mx-auto px-28 py-4 flex justify-between items-center">
         {/* <h1 className="text-2xl font-bold">Brand Name</h1> */}
         <div>
           <Image src={SmartLight} alt="Smart Light" />
