@@ -13,6 +13,12 @@ export default {
         foreground: "var(--foreground)",
         "dark-blue": "#020617",
       },
+      backgroundImage: {
+        "hero-image": "url('/Hero_section.png')",
+      },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import SmartLight from "../../../public/smart lights_logo.svg";
+import SmartLight from "../../public/smart lights_logo.svg";
 
 const Header: React.FC = () => {
   return (
@@ -20,7 +20,7 @@ const Header: React.FC = () => {
           <a href="#" className="text-white-600 hover:text-gray-800">
             Software Services
           </a>
-          <button className="bg-blue-700 w-28 h-9 rounded">Login</button>
+          <button className="bg-blue-700 w-28 h-9 rounded hover:bg-gray-800">Login</button>
         </nav>
       </div>
     </header>
