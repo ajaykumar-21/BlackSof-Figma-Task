@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
     <div>
       <div className="bg-hero-image bg-contain bg-center h-[750px] w-full">
         <div className="flex flex-col justify-center items-center">
-          <div className="font-inter text-[16px] text-center mt-20">
+          <div className="font-inter text-[16px] text-center pt-20">
             Smart Lighting Solutions
           </div>
           <div className="font-inter text-[38px] text-center mt-3 text-gray-500">

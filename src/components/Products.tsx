@@ -5,27 +5,27 @@ import Arrow from "../../public/assets/arrow (2).svg";
 
 const Products: React.FC = () => {
   return (
-    <div className="conatiner bg-gradient-whitish-gray pl-[20%] pr-[20%] pt-24 pb-20">
+    <div className="conatiner bg-gradient-whitish-gray pl-[20%] pr-[20%] pt-16 pb-20">
       <div className="w-auto h-auto">
         <div className="bg-gradient-white-shades text-[#00386B] font-bold text-center w-[38px] h-[40px] p-2 pl-4">
           Products
         </div>
         <div className="text-black w-full w-[622px] h-[136px] text-[#000000]">
-          <div className="font-inter text-[40px] font-normal mt-5 tracking-[0.01em] text-left">
-            <span className="font-sequel-sans text-[40px] font-bold leading-[72px]">
+          <div className="font-inter text-[30px] font-normal mt-5 tracking-[0.01em] text-left">
+            <span className="font-sequel-sans text-[30px] font-bold">
               Cutting-edge hardware,
             </span>{" "}
             offerings
           </div>
-          <div className="font-inter text-[40px] mt-1">
+          <div className="font-inter text-[30px]">
             helping cities optimize resources and
           </div>
-          <div className="font-inter text-[40px] mt-1">
+          <div className="font-inter text-[30px]">
             achieve smart development goals.
           </div>
         </div>
       </div>
-      <div className="mt-32 flex flex-wrap gap-5">
+      <div className="mt-10 flex flex-wrap gap-5">
         {products.map((product, index) => (
           <div key={index} className="flex flex-col">
             <div className="h-10 text-white border-2 border-gray-400 p-2 hover:bg-gray-700 cursor-pointer">
