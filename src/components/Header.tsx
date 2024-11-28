@@ -6,7 +6,6 @@ const Header: React.FC = () => {
   return (
     <header className="bg-dark-blue shadow-md">
       <div className="container mx-auto px-32 py-6 flex justify-between items-center">
-        {/* <h1 className="text-2xl font-bold">Brand Name</h1> */}
         <div>
           <Image src={SmartLight} alt="Smart Light" />
         </div>
