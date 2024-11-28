@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Responsive Webpage with Animated Features Section and Footer Links
 
-## Getting Started
+This project is a responsive webpage built with **Next.js**, **TypeScript**, and **Tailwind CSS**. The design includes an animated "Features" section and a footer area with horizontally divided and vertically separated links (Privacy Policy, Terms & Conditions, Cookie Policy).
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## **Features**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Fully responsive design for mobile, tablet, laptop, and desktop.
+- Modular and reusable components for better scalability.
+- Accessibility (ARIA standards) considerations in the code.
+- Footer with styled dividers and properly aligned links.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## **Tech Stack**
 
-## Learn More
+- **Frontend Framework**: [Next.js](https://nextjs.org/)
+- **TypeScript**: Strongly typed code for better maintainability.
+- **CSS Framework**: [Tailwind CSS](https://tailwindcss.com/) for rapid UI development.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## **Folder Structure**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+````plaintext
+.
+├── components
+│   ├── FeatureCard.tsx       // Component for individual feature cards
+│   ├── FeaturesSection.tsx   // Section containing the feature cards
+│   ├── Footer.tsx            // Footer with links and dividers
+├── public
+│   ├── assets/               // Place for static assets (if any)
+├── styles
+│   └── globals.css           // TailwindCSS and global styles
+├── package.json              // Project dependencies and scripts
+└── README.md                 // Project documentation
 
-## Deploy on Vercel
+## **Contact**
+```For any questions or suggestions, feel free to reach out:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ -Email: ajaykumarpk7891@gmail.com
+ -GitHub: https://github.com/ajaykumar-21
+````
