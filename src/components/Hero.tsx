@@ -4,7 +4,7 @@ import React from "react";
 const Hero: React.FC = () => {
   return (
     <div>
-      <div className="bg-hero-image bg-cover bg-center h-[700px] w-full">
+      <div className="bg-hero-image bg-contain bg-center h-[750px] w-full">
         <div className="flex flex-col justify-center items-center">
           <div className="font-inter text-[16px] text-center mt-20">
             Smart Lighting Solutions

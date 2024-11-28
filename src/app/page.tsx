@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Hero from "@/components/Hero";
 import Ecosystem from "@/components/Ecosystem";
+import Products from "@/components/Products";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Ecosystem />
+      <Products />
     </div>
   );
 }
