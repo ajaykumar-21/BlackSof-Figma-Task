@@ -1,4 +1,4 @@
-import SmartLight from "../../public/smart lights_logo.svg";
+import SmartLight from "../../public/assets/smart lights_logo.svg";
 import Image from "next/image";
 
 const Footer: React.FC = () => {

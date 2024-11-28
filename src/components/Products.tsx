@@ -1,14 +1,14 @@
 import Image from "next/image";
 import { products } from "@/data/productsData";
-import SmartLight from "../../public/smartLight.svg";
-import Arrow from "../../public/arrow (2).svg";
+import SmartLight from "../../public/assets/smartLight.svg";
+import Arrow from "../../public/assets/arrow (2).svg";
 
 const Products: React.FC = () => {
   return (
     <div className="conatiner bg-gradient-whitish-gray pl-[20%] pr-[20%] pt-24 pb-20">
       <div className="w-auto h-auto">
-        <div className="bg-gradient-white-shades text-[#00386B] text-center w-[38px] h-[40px] p-2">
-          Ecosystem
+        <div className="bg-gradient-white-shades text-[#00386B] font-bold text-center w-[38px] h-[40px] p-2 pl-4">
+          Products
         </div>
         <div className="text-black w-full w-[622px] h-[136px] text-[#000000]">
           <div className="font-inter text-[40px] font-normal mt-5 tracking-[0.01em] text-left">
@@ -53,7 +53,7 @@ const Products: React.FC = () => {
               <div className="flex gap-2 items-center cursor-pointer">
                 <div className="text-[20px] text-[#3661FF]">Know More</div>
                 <div>
-                  <Image src={Arrow} alt="Arrow Icon"/>
+                  <Image src={Arrow} alt="Arrow Icon" />
                 </div>
               </div>
             </div>

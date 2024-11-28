@@ -1,5 +1,5 @@
 import React from "react";
-// import Ecosystem from "./Ecosystem";
+import Ecosystem from "./Ecosystem";
 
 const Hero: React.FC = () => {
   return (
@@ -20,9 +20,9 @@ const Hero: React.FC = () => {
           </button>
         </div>
       </div>
-      {/* <div>
+      <div>
         <Ecosystem />
-      </div> */}
+      </div>
     </div>
   );
 };
