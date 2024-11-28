@@ -5,7 +5,7 @@ export const features = [
     title: "Street Light Controller",
     description:
       "Activates/deactivates in response to motion/light sensing and controls the brightness of the street lamp.",
-    icon: "/gateway_png.png",
+    icon: "/treetLight.svg",
   },
   {
     title: "Gateway",
