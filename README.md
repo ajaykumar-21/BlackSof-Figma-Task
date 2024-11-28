@@ -23,7 +23,7 @@ This project is a responsive webpage built with **Next.js**, **TypeScript**, and
 
 ## **Folder Structure**
 
-````plaintext
+```plaintext
 .
 ├── components
 │   ├── FeatureCard.tsx       // Component for individual feature cards
@@ -36,9 +36,11 @@ This project is a responsive webpage built with **Next.js**, **TypeScript**, and
 ├── package.json              // Project dependencies and scripts
 └── README.md                 // Project documentation
 
-## **Contact**
-```For any questions or suggestions, feel free to reach out:
+```
 
- -Email: ajaykumarpk7891@gmail.com
- -GitHub: https://github.com/ajaykumar-21
-````
+# CONTACT DETAILS
+
+-For any questions or suggestions, feel free to reach out:
+
+-Email: ajaykumarpk7891@gmail.com
+-GitHub: https://github.com/ajaykumar-21
