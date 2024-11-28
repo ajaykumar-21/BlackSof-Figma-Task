@@ -5,7 +5,7 @@ import Arrow from "../../public/assets/arrow (2).svg";
 
 const Products: React.FC = () => {
   return (
-    <div className="conatiner bg-gradient-whitish-gray pl-[20%] pr-[20%] pt-16 pb-20">
+    <div className="conatiner bg-gradient-whitish-gray pl-[10%] pr-[10%] pt-16 pb-20">
       <div className="w-auto h-auto">
         <div className="bg-gradient-white-shades text-[#00386B] font-bold text-center w-[38px] h-[40px] p-2 pl-4">
           Products
@@ -34,18 +34,18 @@ const Products: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="h-[413px] mt-10">
+      <div className="mt-10">
         <div className="flex">
-          <div className="w-[50%]">
+          <div>
             <Image src={SmartLight} alt="Smart street Light" />
           </div>
           <div className="bg-white-blue-shades w-[50%] flex items-center pl-10">
             <div className="w-[336px] h-[245.87px]">
               <div className="text-[#818181] text-left">Products 1/5</div>
-              <div className="font-sequel-sans text-[30px] font-semibold text-[#000000] mb-4">
+              <div className="font-sequel-sans text-[20px] font-semibold text-[#000000] mb-4">
                 Centralized Control & Monitoring System
               </div>
-              <div className="font-sequel-sans text-[16px] font-normal leading-[24px] tracking-[0.01em] text-[#000000] mb-3">
+              <div className="font-sequel-sans text-[14px] font-normal leading-[24px] tracking-[0.01em] text-[#000000] mb-3">
                 Designed indigenously for street lighting projects, the CCMS
                 offers a complete feeder panel for a group of 30-50 street
                 lights.

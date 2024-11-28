@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer: React.FC = () => {
   return (
-    <div className="bg-footer-image h-[450px] pl-[20%] pr-[20%] bg-center">
+    <div className="bg-footer-image h-[450px] pl-[10%] pr-[10%] bg-center">
       <div className="pt-10">
         <div className="container mx-auto py-6 flex justify-between items-center">
           <div>

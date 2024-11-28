@@ -5,7 +5,7 @@ import Products from "./Products";
 const Ecosystem: React.FC = () => {
   return (
     <>
-      <div className="conatiner bg-white-blue-shades pl-[20%] pr-[20%] pt-16 pb-20">
+      <div className="conatiner bg-white-blue-shades pl-[10%] pr-[10%] pt-16 pb-20">
         <div className="w-auto h-auto">
           <div className="bg-gradient-blue text-[#00386B] font-bold text-center w-[38px] h-[40px] p-2">
             Ecosystem
