@@ -10,7 +10,7 @@ const Header: React.FC = () => {
   return (
     <>
       <header className="bg-dark-blue shadow-md">
-        <div className="container mx-auto px-4 md:px-12 lg:px-32 py-4 flex flex-wrap justify-between items-center">
+        <div className="container mx-full px-4 md:px-12 lg:px-32 py-4 flex flex-wrap justify-between items-center">
           {/* Logo Section */}
           <div className="w-full md:w-auto flex justify-between items-center">
             <Image src={SmartLight} alt="Smart Light" />
