@@ -1,31 +1,64 @@
+"use client";
+import { useState } from "react";
 import SmartLight from "../../public/assets/smart lights_logo.svg";
 import Image from "next/image";
 
 const Footer: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="bg-footer-image h-[350px] pl-[10%] pr-[10%] bg-center">
-      <div className="pt-10">
-        <div className="container mx-auto py-6 flex justify-between items-center">
-          <div>
-            <Image src={SmartLight} alt="Smart Light" />
-          </div>
-          <nav className="space-x-20 pr-20">
-            <a href="#" className="text-white-600 hover:text-gray-800">
-              Home
-            </a>
-            <a href="#" className="text-white-600 hover:text-gray-800">
-              Software Services
-            </a>
-            <a href="#" className="text-white-600 hover:text-gray-800">
-              Follow Us
-            </a>
-          </nav>
+    <div className="bg-footer-image h-auto bg-center bg-cover px-6 md:px-[10%] py-10">
+      {/* Navigation Section */}
+      <div className="container mx-full px-4 md:px-12 lg:px-32 py-4 flex flex-wrap justify-between items-center">
+        {/* Logo Section */}
+        <div className="w-full md:w-auto flex justify-between items-center">
+          <Image src={SmartLight} alt="Smart Light" />
+          {/* Hamburger Menu */}
+          <button
+            className="block md:hidden text-white focus:outline-none"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
         </div>
+
+        {/* Navigation Section */}
+        <nav
+          className={`${
+            isMenuOpen ? "block" : "hidden"
+          } md:flex space-y-4 md:space-y-0 md:space-x-4 lg:space-x-8 w-full md:w-auto mt-4 md:mt-0`}
+        >
+          <a href="#" className="text-white hover:text-gray-400 block">
+            Home
+          </a>
+          <a href="#" className="text-white hover:text-gray-400 block">
+            Software Services
+          </a>
+          <a href="#" className="text-white hover:text-gray-400 block">
+            Follow Us
+          </a>
+        </nav>
       </div>
-      <div className="mt-20">
-        <div className="w-[500px]">
-          <div className="border-t border-gray-400 mb-4"></div>{" "}
-          <div className="grid grid-cols-3 divide-x divide-gray-400 text-center">
+      {/* Divider and Policies Section */}
+      <div className="mt-10">
+        <div className="w-full md:w-[500px] mx-auto">
+          {/* Divider Line */}
+          <div className="border-t border-gray-500 mb-6"></div>
+
+          {/* Policies Links */}
+          <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-gray-500 text-center text-white">
             <div className="p-2">Privacy Policy</div>
             <div className="p-2">Terms & Conditions</div>
             <div className="p-2">Cookie Policy</div>

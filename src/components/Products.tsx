@@ -5,10 +5,10 @@ import Arrow from "../../public/assets/arrow (2).svg";
 
 const Products: React.FC = () => {
   return (
-    <div className="container bg-gradient-whitish-gray px-6 md:px-[10%] pt-16 pb-20">
+    <div className="bg-gradient-whitish-gray px-6 md:px-[10%] pt-16 pb-20">
       {/* Title Section */}
       <div className="w-full">
-        <div className="bg-gradient-white-shades text-[#00386B] font-bold text-center w-[38px] h-[40px] p-2 mx-auto md:mx-0">
+        <div className="bg-gradient-white-shades text-[#00386B] font-bold text-center w-[38px] h-[40px] p-2 md:mx-0">
           Products
         </div>
         <div className="text-black mt-5">
@@ -48,7 +48,7 @@ const Products: React.FC = () => {
             <Image
               src={SmartLight}
               alt="Smart street Light"
-              className="w-full max-w-[300px] lg:max-w-none"
+              className="w-full max-w-[400px] lg:max-w-none"
             />
           </div>
           <div className="bg-white-blue-shades w-full lg:w-[50%] flex items-center px-6 py-6 md:px-10">
